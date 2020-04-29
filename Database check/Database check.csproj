@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90963264-D137-4131-8448-3D15786BE4BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Database_check</RootNamespace>
+    <AssemblyName>DB Data</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_orthogonal_view_64_bG2_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>53002E38828CC39493FEC4F1B5C430A926E45A1B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Database check_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Bunifu Visual Studio\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.7.0.7, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.7.0.7\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.3.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.3.9\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Core.Code128.3.1.0\lib\net45\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminformmain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminformmain.Designer.cs">
+      <DependentUpon>adminformmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminhelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminhelp.Designer.cs">
+      <DependentUpon>adminhelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminusage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminusage.Designer.cs">
+      <DependentUpon>adminusage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminuserdata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminuserdata.Designer.cs">
+      <DependentUpon>adminuserdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Barcode.Designer.cs">
+      <DependentUpon>Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Dashboad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Dashboad.Designer.cs">
+      <DependentUpon>Dashboad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\QRcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\QRcode.Designer.cs">
+      <DependentUpon>QRcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpanel.Designer.cs">
+      <DependentUpon>adminpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin_admin_user.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="admin_admin_user.Designer.cs">
+      <DependentUpon>admin_admin_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admincontrolpanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="admincontrolpanel.Designer.cs">
+      <DependentUpon>admincontrolpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admindashboad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="admindashboad.Designer.cs">
+      <DependentUpon>admindashboad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteStudent.Designer.cs">
+      <DependentUpon>deleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteTeacher.Designer.cs">
+      <DependentUpon>deleteTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student.Designer.cs">
+      <DependentUpon>Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentDBDataSet.cs">
+      <DependentUpon>StudentDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher.Designer.cs">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminformmain.resx">
+      <DependentUpon>adminformmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Barcode.resx">
+      <DependentUpon>Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Dashboad.resx">
+      <DependentUpon>Dashboad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminhelp.resx">
+      <DependentUpon>adminhelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminusage.resx">
+      <DependentUpon>adminusage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminuserdata.resx">
+      <DependentUpon>adminuserdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_admin_user.resx">
+      <DependentUpon>admin_admin_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admincontrolpanel.resx">
+      <DependentUpon>admincontrolpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admindashboad.resx">
+      <DependentUpon>admindashboad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminpanel.resx">
+      <DependentUpon>adminpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteStudent.resx">
+      <DependentUpon>deleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteTeacher.resx">
+      <DependentUpon>deleteTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher.resx">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database check_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="StudentDBDataSet.xsc">
+      <DependentUpon>StudentDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDBDataSet.xss">
+      <DependentUpon>StudentDBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_orthogonal_view_64_bG2_icon.ico" />
+    <Content Include="unnamed_KFi_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DeleteFormData1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

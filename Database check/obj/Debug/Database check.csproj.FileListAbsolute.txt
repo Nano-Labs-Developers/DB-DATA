@@ -1,0 +1,37 @@
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.login.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.MainMenu.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.Properties.Resources.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.Student.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.Teacher.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database check.csproj.GenerateResource.cache
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\DB Data.exe
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\DB Data.pdb
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\DB Data.exe.config
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\DB Data.exe
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\DB Data.pdb
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database check.csproj.CoreCompileInputs.cache
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.deleteStudent.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.deleteTeacher.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\DB Data.exe.manifest
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\DB Data.application
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\DB Data.TrustInfo.xml
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\DB Data.exe.manifest
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\DB Data.application
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.AdminPanel.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database check.csproj.CopyComplete
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\Zen.Barcode.Core.dll
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.AdminForms.Barcode.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.AdminForms.Dashboad.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\QRCoder.dll
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.Adminformmain.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.AdminForms.adminuserdata.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.admin_admin_user.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.adminDashboad.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.adminHelp.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.adminusage.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.adminControlpanel.resources
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\CircularProgressBar.dll
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\bin\Debug\WinFormAnimation.dll
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database check.csprojAssemblyReference.cache
+D:\Es Assin\Unit 4-DataBase\Pg 107 Project\DatabaseApp\Database check\obj\Debug\Database_check.signup.resources
