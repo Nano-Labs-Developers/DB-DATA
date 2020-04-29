@@ -8,7 +8,7 @@
 - Form Student
 
 
-##### [1.](sql-connection) SQL Connection
+##### [](sql-connection) SQL Connection
 ```
 SqlConnection con = new SqlConnection(@"Data Source = <here user_name[PC_name]>; Initial Catalog = StudentDB; Integrated Security = True");
 ```
@@ -17,29 +17,29 @@ SqlConnection con = new SqlConnection(@"Data Source = <here user_name[PC_name]>;
 SqlConnection con = new SqlConnection(@"Data Source = ASUS; Initial Catalog = StudentDB; Integrated Security = True");
 ```
 
-##### [2.](database) Database Deatils
+##### [](database) Database Deatils
 
-##### [2.1.](database-select) Database - Select Data
+##### [](database-select) Database - Select Data
 ```C#
 string query_search = "SELECT * FROM Teacher WHERE email = '" + u_email + "'";
 ```
 
-##### [2.2.](database-insert) Database - Insert Data
+##### [](database-insert) Database - Insert Data
 ```C#
 string query_insert = "INSERT INTO FormLoginData VALUES('" + user_name+ "','" +password+ "','" +role+ "','"+ usertype  + "')";
 ```
 
-##### [2.2.](database-update) Database - Update Data
+##### [](database-update) Database - Update Data
 ```C#
 string updatesql = "UPDATE Student SET firstname='" + fname + "',email='" + email + "',tp='" + tel + "',gender='" + gender + "',grade='" + grade + "' where email='" + email + "'";
 ```
 
-##### [2.2.](database-delete) Database - Delete Data
+##### [](database-delete) Database - Delete Data
 ```C#
 string deletesql = "DELETE FROM Teacher WHERE email='" + email + "'";
 ```
 
-##### [3.](form-movement) Form Movement Handle
+##### [](form-movement) Form Movement Handle
 ###### *Example Only*
 ```C#
 [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
