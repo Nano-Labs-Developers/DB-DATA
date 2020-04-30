@@ -1,4 +1,4 @@
-# DB-DATA 
+<h1 align="center"> DB-DATA </h1>
 
 ###### Application Details
 
