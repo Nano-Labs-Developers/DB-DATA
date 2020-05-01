@@ -7,7 +7,7 @@
 #### About this application
 - Using C# and SQL database
 - Simple login applied
-- Form Student
+- For Student
 
 
 ##### [](sql-connection) SQL Connection
