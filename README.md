@@ -4,8 +4,6 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b65ef4dd749d46ee96f7211b60a9a819)](https://app.codacy.com/gh/Nano-Labs-Developers/DB-DATA?utm_source=github.com&utm_medium=referral&utm_content=Nano-Labs-Developers/DB-DATA&utm_campaign=Badge_Grade_Dashboard)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=watch&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Watch twbs/bootstrap on GitHub"></iframe>
-
 #### About this application
 - Using C# and SQL database
 - Simple login applied
